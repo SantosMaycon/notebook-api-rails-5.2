@@ -31,6 +31,10 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # A terminal spinner for tasks that have non-deterministic time frame.
+  gem 'tty-spinner'
+  # Gem utilized for generate random values
+  gem 'faker'
 end
 
 group :development do
